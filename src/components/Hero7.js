@@ -1,26 +1,32 @@
 import React from 'react'
+import { styles } from '../style'
+import phone2 from '../assets/landing/phone2.png'
+import phone3 from '../assets/landing/phone3.png'
+import phone4 from '../assets/landing/phone4.png'
 
 const Hero7 = () => {
   return (
-    <div className='px-10 py-10'>
-      <div className='flex flex-col md:flex-row w-full py-36 bg-red rounded-xl'>
-        <div className='flex md:flex-1 h-full flex-col justify-center items-center'>
-          <div className='md:max-w-lg'>
-            <p>Making pet parenting easy for everyone</p>
-            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.</p>
-          </div>
+    <div className='mx-4 md:mx-10 my-4 md:my-10 flex flex-col md:flex-row bg-red rounded-xl px-4 gap-4'>
+      <div className='flex md:flex-1 flex-col justify-center items-center gap-4 py-4'>
+        <div className='md:max-w-lg flex flex-col gap-4'>
+          <p className={`${styles.heroHeadText2}`}>Download Petbey Today</p>
+          <p className={`${styles.heroSubText2} opacity-80`}>In nisl nisi scelerisque eu ultrices vitae. Blandit volutpat maecenas volutpat blandit aliquam. Eget nunc scelerisque viverra mauris in aliquam sem fringilla.</p>
+          {/* fix this later */}
+          {/* fix button */}
           <div className='flex flex-row gap-4'>
             <div className='px-6 py-2 bg-gray-400 rounded-full'>
-              <a href='/contact'>Explore</a>
+              <a href='/contact' className={`${styles.heroSubText2}`}>App Store</a>
             </div>
             <div className='px-6 py-2 bg-gray-400 rounded-full'>
-              <a href='/contact'>Explore</a>
+              <a href='/contact' className={`${styles.heroSubText2}`}>Play Store</a>
             </div>
           </div>
         </div>
-        <div className='flex md:flex-1 h-full justify-center items-center'>
-          photo here
-        </div>
+      </div>
+      <div className='flex md:flex-1 flex-row md:gap-8 justify-around md:justify-center'>
+        <img src={phone2} className='h-36 md:h-72 lg:h-96 md:pb-10 hidden md:flex'/>
+        <img src={phone4} className='h-36 md:h-72 lg:h-96 md:pt-10 flex md:hidden'/>
+        <img src={phone3} className='h-36 md:h-72 lg:h-96 md:pt-10'/>
       </div>
     </div>
   )
