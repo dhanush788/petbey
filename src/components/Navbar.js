@@ -6,22 +6,24 @@ export const Navbar = () => {
 
     return (
         <div className="absolute top-0 w-full">
-            <div className="flex items-center justify-between px-10 md:px-36 py-4">
+            <div className="flex items-center justify-between px-10 md:px-24 py-4">
                 <div className="flex items-center gap-x-14">
                     <a href="/" aria-label="Home" className="block">
-                        {/* <img src='logo' alt="logo" className="" /> */}
+                        <img src='./logo.png' alt="logo" className="h-10 w-40" />
                     </a>
                 </div>
-                <div className="text-white hidden font-display text-2xl md:flex gap-16">
+                <div className="text-white hidden font-normal text-lg md:flex gap-16">
                     <a href='/'>Home</a>
                     <a href='/features'>Features</a>
                     <a href='/testimonial'>Testimonial</a>
                     <a href="/contact">Contact</a>
                 </div>
-                <div className="text-white hidden font-display text-2xl md:flex gap-16">
-                    <div className='px-6 py-2 bg-gray-400 rounded-full'>
+                {/* fix this later */}
+                <div className="text-white hidden font-semibold text-lg md:flex gap-16">
+                    <div className='px-8 py-2 bg-white absolute opacity-10 rounded-full'>
                         <a href='/download'>Download</a>
                     </div>
+                    <a href='/download' className='px-8 py-2'>Download</a>
                 </div>
                 <div className="md:hidden flex items-center">
                     <button className="mobile-menu-button">
