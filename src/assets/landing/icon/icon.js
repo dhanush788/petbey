@@ -7,8 +7,8 @@ import icon6 from './icon6.png'
 import icon7 from './icon7.png'
 import icon8 from './icon8.png'
 import icon9 from './icon9.png'
-
-
+import icon10 from './icon10.png'
+import icon11 from './icon11.png'
 
 export {
     icon1,
@@ -19,5 +19,7 @@ export {
     icon6,
     icon7,
     icon8,
-    icon9
+    icon9,
+    icon10,
+    icon11
 }

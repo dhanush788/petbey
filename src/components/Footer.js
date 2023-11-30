@@ -27,7 +27,7 @@ const Footer = () => {
                     <ul className='flex flex-col md:mx-auto gap-y-3 w-full'>
                         <p className={`${styles.heroSubHeadText}`}>Get in Touch</p>
                         <p className={`${styles.heroSubText}`}>Question or feedback? We’d love to hear from you.</p>
-                        <input type='text' placeholder='Your email' className='border-2 border-gray-300 rounded-md px-4 py-3 bg-[#F3F5F6] w-full'></input>
+                        <input type='text' placeholder='Your Email Address' className='border border-[#D3D3D3] rounded-md px-4 py-3 bg-[#F3F5F6] w-full'></input>
                     </ul>
                 </div>
             </div>

@@ -22,7 +22,7 @@ const cardDetails = [{
 
 const card = (title, description,icon) => {
   return (
-<div className='flex flex-col text-center min-w-[200px] md:w-[350px] bg-[#FFF9F9] rounded-xl items-center p-6 gap-4'>
+<div className='flex flex-col text-center min-w-[200px] md:min-w-[350px] md:max-w-[360px] bg-[#FFF9F9] rounded-xl items-center p-6 gap-4'>
   <img src={icon} alt="icon" className='w-16 md:w-24 h-16 md:h-24'/>
   <p className={`${styles.heroSubHeadText}`}>{title}</p>
   <p className={`${styles.heroSubText}`}>{description}</p>
@@ -39,7 +39,7 @@ const Hero6 = () => {
       <p className={`${styles.heroSubText}`}>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Arcu cursus euismod quis viverra nibh cras.</p>
     </div>  
     <div className='flex justify-center w-full pl-6 py-1'>
-      <div className='flex flex-row gap-8 overflow-x-scroll pr-4'>
+      <div className='flex flex-row gap-8 overflow-x-auto pr-4'>
         {cardDetails.map((cardDetail) => card(cardDetail.title, cardDetail.description, cardDetail.icon))}
       </div>
     </div>

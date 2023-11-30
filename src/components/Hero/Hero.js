@@ -5,8 +5,8 @@ import vector from '../../assets/landing/Vector.png'
 const Hero = () => {
     return (
         <div className='flex flex-col md:flex-row w-full h-screen bg-red'>
-            <div className='flex md:w-1/2 h-full flex-col justify-center md:px-24'>
-                <div className='md:max-w-lg text-white text-center md:text-left px-6 md:px-0'>
+            <div className='flex md:w-1/2 h-full flex-col justify-center'>
+                <div className='w-full text-white text-center md:text-left px-6 md:pl-10'>
                     <p className='font-bold text-3xl md:text-6xl'>Take good care of your small pets.</p>
                     <p className='opacity-80 text-sm md:text-base font-normal py-4'>Ariel Hocsman launched a new career in software development by taking courses on Besnik. What will you be able to do?</p>
                     <div className="text-white hidden font-semibold text-lg md:flex gap-16">
@@ -20,10 +20,10 @@ const Hero = () => {
             </div>
             {/* fix this later */}
             {/* adjust photo size */}
-            <div className='flex md:flex-1 h-full justify-center items-end -mt-64 md:mt-0 md:-ml-96'>
-                {/* <img src={vector} alt='vector' className=' ' /> */}
-                <img src={hero} alt='hero' className='md:w-[1077px] md:h-[705px] ' />
-                {/* <img src={vector} alt='vector' className=' ' /> */}
+            <div className='flex md:flex-1 justify-center'>
+                <img src={vector} alt='vector' className='w-5 md:w-11 mt-auto mb-24' />
+                <img src={hero} alt='hero' className='w-3/4 mt-auto' />
+                <img src={vector} alt='vector' className='w-5 md:w-11 mb-auto mt-36' />
             </div>
         </div>
     )
