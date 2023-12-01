@@ -4,6 +4,7 @@ import profile1 from '../../assets/landing/profile/profile1.png'
 import profile2 from '../../assets/landing/profile/profile2.png'
 import profile3 from '../../assets/landing/profile/profile3.png'
 import icon12 from '../../assets/landing/icon/icon12.png'
+import { keyboard } from '@testing-library/user-event/dist/keyboard'
 
 const cardDetails = [{
   title: 'Esther Howard',
@@ -21,9 +22,9 @@ const cardDetails = [{
 
 
 
-const card = (title, description,icon) => {
+const card = (title, description,icon,key) => {
   return (
-<div className='flex flex-col text-center min-w-[200px] md:min-w-[350px] md:max-w-[360px] bg-[#FFF9F9] rounded-xl items-center p-6 gap-4 relative mt-10'>
+<div className='flex flex-col text-center min-w-[200px] md:min-w-[350px] md:max-w-[360px] bg-[#FFF9F9] rounded-xl items-center p-6 gap-4 relative mt-10' key={key}>
   <img src={icon} alt="icon" className='w-16 md:w-24 h-16 md:h-24'/>
   <img src={icon12} alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8'/>
   <p className={`${styles.heroSubHeadText}`}>{title}</p>
@@ -42,7 +43,7 @@ const Hero6 = () => {
     </div>  
     <div className='flex justify-center w-full pl-6 py-1'>
       <div className='flex flex-row gap-8 overflow-x-scroll pr-4'>
-        {cardDetails.map((cardDetail) => card(cardDetail.title, cardDetail.description, cardDetail.icon))}
+        {cardDetails.map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon,index))}
       </div>
     </div>
   </div>

@@ -31,9 +31,9 @@ const cardDetails = [{
 
 
 
-const card = (title, description, icon,check) => {
+const card = (title, description, icon,check,key) => {
   return (
-    <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'}`}>
+    <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'}`} key={key}>
       <img src={icon} alt="icon" className='h-12 w-12' />
       <p className={`${styles.heroSubHeadText}`}>{title}</p>
       <p className={`${styles.heroSubText}`}>{description}</p>
@@ -51,13 +51,13 @@ const Hero4 = () => {
         </div>
         <div className='grid grid-cols-4 md:grid-cols-5 gap-4 md:gap-8'>
   <div className='flex flex-col md:my-auto  justify-between col-span-2 gap-4'>
-    {cardDetails.slice(0, 3).map((cardDetail) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true))}
+    {cardDetails.slice(0, 3).map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true,index))}
   </div>
   <div className='hidden md:flex md:my-auto justify-center col-span-1'>
     <img src={phone1} alt="phone" className='w-full md:w-[300px]' />
   </div>
   <div className='flex flex-col md:my-auto justify-between col-span-2 gap-4'>
-    {cardDetails.slice(3, 6).map((cardDetail) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false))}
+    {cardDetails.slice(3, 6).map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false,index))}
   </div>
 </div>
 

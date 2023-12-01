@@ -1,4 +1,4 @@
-import React , { useContext } from 'react'
+import React from 'react'
 import Hero from '../components/Hero/Hero'
 import Hero1 from '../components/Hero/Hero1'
 import Hero2 from '../components/Hero/Hero2'
@@ -9,8 +9,10 @@ import Hero6 from '../components/Hero/Hero6'
 import { useTheme } from '../context/Theme'
 
 const Home = () => {
-  const {theme,setTheme}= useTheme()
-  setTheme(true)
+  const {theme,setTheme}=useTheme()
+  React.useEffect(()=>{
+    setTheme(true)
+  },[])
   return (
     <div>
       <Hero />

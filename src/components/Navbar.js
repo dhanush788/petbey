@@ -10,7 +10,7 @@ export const Navbar = () => {
         
         links.forEach(link => {
             if (link.getAttribute('href') === window.location.pathname) {
-                link.classList.add('font-bold');
+                link.classList.add('font-semibold');
             }
         });
     }, []);

@@ -19,9 +19,9 @@ const cardDetails = [{
 
 
 
-const card = (title, description,icon) => {
+const card = (title, description,icon,key) => {
   return (
-    <div className='flex flex-col max-w-xl text-center gap-2 md:gap-4'>
+    <div className='flex flex-col max-w-xl text-center gap-2 md:gap-4' key={key}>
       <img src={icon} alt="icon" className='w-16 h-16 md:w-24 md:h-24 mx-auto'/>
       <p className={`${styles.heroSubHeadText}`}>{title}</p>
       <p className={`${styles.heroSubText}`}>{description}</p>
@@ -39,7 +39,7 @@ const Hero1 = () => {
         </div>
         <div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12'>
-            {cardDetails.map((cardDetail, index) => (card(cardDetail.title, cardDetail.description,cardDetail.icon)))}
+            {cardDetails.map((cardDetail,index) => (card(cardDetail.title, cardDetail.description,cardDetail.icon,index)))}
           </div>
         </div>
       </div>
