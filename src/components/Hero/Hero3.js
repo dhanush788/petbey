@@ -1,6 +1,7 @@
 import React from 'react'
 import { styles } from '../../style'
-import {bird ,dog ,cat,reptile,small_animal,farm_animal,bird1,fish} from '../../assets/landing/animal/animal'
+import { bird, dog, cat, reptile, small_animal, farm_animal, bird1, fish } from '../../assets/landing/animal/animal'
+import { MdArrowForwardIos } from 'react-icons/md'
 
 const cardDetails = [{
   title: 'Birds',
@@ -38,10 +39,10 @@ const cardDetails = [{
 
 
 
-const card = (title, description,icon) => {
+const card = (title, description, icon) => {
   return (
     <div className='flex flex-col max-w-xl text-center'>
-      <img src={icon} alt="icon" className=''/>
+      <img src={icon} alt="icon" className='' />
       <p className={`${styles.heroSubHeadText}`}>{title}</p>
       <p className={`${styles.heroSubText}`}>{description}</p>
     </div>
@@ -58,11 +59,13 @@ const Hero3 = () => {
         </div>
         <div>
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-8'>
-            {cardDetails.map((cardDetail) => card(cardDetail.title, cardDetail.description,cardDetail.icon))}
+            {cardDetails.map((cardDetail) => card(cardDetail.title, cardDetail.description, cardDetail.icon))}
           </div>
         </div>
         <div className='flex flex-col md:max-w-xl text-center'>
-          <div className='px-12 py-3 bg-red rounded-full text-white font-semibold text-xs md:text-lg'>Explore</div>
+          <div className='px-8 py-3 bg-red rounded-full text-white font-semibold text-xs md:text-lg flex flex-row gap-1  hover:translate-x-3'>
+            <a href='./'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
+          </div>
         </div>
       </div>
     </div>

@@ -20,10 +20,9 @@ export const Navbar = () => {
                 </div>
                 {/* fix this later */}
                 <div className="text-white hidden font-semibold text-lg md:flex gap-16">
-                    <div className='px-8 py-2 bg-white absolute opacity-10 rounded-full'>
+                    <div className='px-8 py-2 bg-white bg-opacity-10 rounded-full'>
                         <a href='/download'>Download</a>
                     </div>
-                    <a href='/download' className='px-8 py-2'>Download</a>
                 </div>
                 <div className="md:hidden flex items-center">
                     <button className="mobile-menu-button">
