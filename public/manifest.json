@@ -3,7 +3,7 @@
   "name": "petbey",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "logo.svg",
       "type": "image/png",
       "sizes": "512x512"
     }
