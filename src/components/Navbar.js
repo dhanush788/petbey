@@ -17,7 +17,7 @@ export const Navbar = () => {
 
     return (
         <div className="absolute top-0 w-full">
-            <div className="flex items-center justify-between px-5 md:px-24 py-4">
+            <div className="flex items-center justify-between px-6 md:px-36 py-4">
                 <div className="flex items-center gap-x-14">
                     <a href="/" aria-label="Home" className="block">
                         {theme ?
