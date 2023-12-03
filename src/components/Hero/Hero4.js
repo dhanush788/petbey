@@ -43,7 +43,7 @@ const card = (title, description, icon,check,key) => {
 
 const Hero4 = () => {
   return (
-    <div className='py-6 px-5 md:py-16 md:px-10'>
+    <div className='py-6 px-6 md:py-16 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
         <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-4'>
           <p className={`${styles.heroHeadText}`}>How App Works</p>

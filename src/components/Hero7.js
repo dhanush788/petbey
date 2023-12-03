@@ -7,7 +7,7 @@ import { FaApple ,FaGooglePlay } from "react-icons/fa";
 
 const Hero7 = () => {
   return (
-    <div className='mx-4 md:mx-10 my-4 md:my-10 flex flex-col md:flex-row bg-red rounded-xl px-4 gap-4'>
+    <div className='mx-6 md:mx-36 my-4 md:my-10 flex flex-col md:flex-row bg-red rounded-xl px-4 gap-4'>
       <div className='flex md:flex-1 flex-col justify-center items-center gap-4 py-4'>
         <div className='md:max-w-lg flex flex-col gap-4'>
           <p className={`${styles.heroHeadText2}`}>Download Petbey Today</p>

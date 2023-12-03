@@ -51,7 +51,7 @@ const card = (title, description, icon,key) => {
 
 const Hero3 = () => {
   return (
-    <div className='py-16 px-6 md:px-28'>
+    <div className='py-16 px-6 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
         <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-6'>
           <p className={`${styles.heroHeadText}`}>Pet Categories</p>

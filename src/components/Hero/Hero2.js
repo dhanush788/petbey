@@ -6,9 +6,9 @@ import Vector1 from '../../assets/landing/Vector1.png'
 
 const Hero2 = () => {
     return (
-        <div className='flex flex-col md:flex-row w-full h-full py-4 md:py-28 px-6 gap-y-12 overflow-hidden'>
+        <div className='flex flex-col md:flex-row w-full h-full py-4 px-6 md:px-36 gap-y-12 overflow-hidden'>
             <div className='flex md:flex-1 h-full flex-col justify-center items-center my-auto'>
-                <div className='md:max-w-lg flex flex-col gap-2 md:gap-4 text-center md:text-left'>
+                <div className=' flex flex-col gap-2 md:gap-4 text-center md:text-left'>
                     <p className={`${styles.heroHeadText}`}>We treat your pet as a family member</p>
                     <p className={`${styles.heroSubText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.</p>
                 </div>

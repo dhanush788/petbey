@@ -4,7 +4,7 @@ import { icon10, icon11 } from '../../assets/landing/icon/icon'
 
 const Landing = () => {
   return (
-    <div className='flex flex-col w-full h-full items-center gap-8 md:gap-16 pt-20 py-5 px-4'>
+    <div className='flex flex-col w-full h-full items-center gap-8 md:gap-16 pt-20 py-5 px-6'>
       <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-4'>
         <p className={`${styles.heroHeadText}`}>Get in touch today!</p>
         <p className={`${styles.heroSubText}`}>Ariel Hocsman launched a new career in software development by taking courses on Besnik. What will you be able to do?</p>

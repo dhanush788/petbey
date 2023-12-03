@@ -36,13 +36,13 @@ const card = (title, description,icon,key) => {
 
 const Hero6 = () => {
   return (
-  <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24'>
+  <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36'>
     <div className='mx-auto flex flex-col md:max-w-xl text-center gap-3 px-2'>
       <p className={`${styles.heroHeadText}`}>Our Happy Customers</p>
       <p className={`${styles.heroSubText}`}>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Arcu cursus euismod quis viverra nibh cras.</p>
     </div>  
-    <div className='flex justify-center w-full pl-6 py-1'>
-      <div className='flex flex-row gap-8 overflow-x-scroll pr-4'>
+    <div className='flex justify-center w-full py-1'>
+      <div className='flex flex-row gap-8 overflow-x-auto pr-4'>
         {cardDetails.map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon,index))}
       </div>
     </div>
