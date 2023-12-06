@@ -33,7 +33,7 @@ const cardDetails = [{
 
 const card = (title, description, icon,check,key) => {
   return (
-    <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'}`} key={key}>
+    <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'} gap-2`} key={key}>
       <img src={icon} alt="icon" className='h-12 w-12' />
       <p className={`${styles.heroSubHeadText}`}>{title}</p>
       <p className={`${styles.heroSubText}`}>{description}</p>
