@@ -41,7 +41,7 @@ const cardDetails = [{
 
 const card = (title, description, icon,key) => {
   return (
-    <div className='flex flex-col max-w-xl text-center' key={key}>
+    <div className='flex flex-col max-w-xl text-center gap-4' key={key}>
       <img src={icon} alt="icon" className='' />
       <p className={`${styles.heroSubHeadText}`}>{title}</p>
       <p className={`${styles.heroSubText}`}>{description}</p>
