@@ -49,7 +49,7 @@ const Hero4 = () => {
           <p className={`${styles.heroHeadText}`}>How App Works</p>
           <p className={`${styles.heroSubText}`}>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Arcu cursus euismod quis viverra nibh cras.</p>
         </div>
-        <div className='grid grid-cols-3 md:grid-cols-8 gap-4 md:gap-8'>
+        <div className='grid grid-cols-6 md:grid-cols-8 gap-4 md:gap-8'>
   <div className='flex flex-col md:my-auto  justify-between col-span-3 gap-6'>
     {cardDetails.slice(0, 3).map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true,index))}
   </div>
