@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { ThemeProvider } from './context/Theme';
 import React from 'react';
+import PrivacyPolicy from './pages/Privacy';
+import TermsAndConditions from './pages/Terms';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
         </Routes>
       </BrowserRouter>
       <Hero7 />

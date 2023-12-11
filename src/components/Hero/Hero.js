@@ -5,7 +5,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const Hero = () => {
     return (
-        <div className='flex flex-col md:flex-row w-full h-screen bg-red px-6 md:px-36'>
+        <div className='flex flex-col md:flex-row w-full h-screen bg-red px-6 md:px-36 max-h-[900px]'>
             <div className='flex md:w-1/2 h-full flex-col justify-center sm:justify-end md:justify-center'>
                 <div className='w-full text-white text-center md:text-left'>
                     <p className='font-bold text-3xl md:text-6xl'>Take good care of your small pets.</p>
