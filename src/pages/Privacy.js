@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="px-6 md:px-36 py-16">
-      <h1 className={`${headingStyle} mb-4`}>Privacy Policy for PetBey</h1>
+      <h1 className={`${headingStyle} mb-4`}>Privacy Policy</h1>
 
       <p className="text-sm text-gray-600">
         This Privacy Policy governs the manner in which PetBey collects, uses, maintains, and discloses information collected from users ("User" or "You") of the PetBey mobile application.

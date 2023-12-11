@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
 
   return (
     <div className="px-6 md:px-36 py-16 ">
-      <h1 className={`${headingStyle} mb-4`}>Terms and Conditions for PetBey</h1>
+      <h1 className={`${headingStyle} mb-4`}>Terms and Conditions</h1>
 
       <div className={sectionStyle}>
         <h2 className={`${headingStyle} text-lg`}>Acceptance of Terms:</h2>
