@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
   const headingStyle = 'font-bold text-2xl'; // Heading styles
 
   return (
-    <div className="px-6 md:px-36 py-6 pt-20 md:pt-36">
+    <div className="px-6 md:px-36 py-6 ">
       <h1 className={`${headingStyle} mb-4`}>Terms and Conditions for PetBey</h1>
 
       <div className={sectionStyle}>

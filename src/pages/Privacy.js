@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
   const headingStyle = 'font-bold text-2xl'; 
 
   return (
-    <div className="px-6 md:px-36 py-6 pt-20 md:pt-36">
+    <div className="px-6 md:px-36 py-16">
       <h1 className={`${headingStyle} mb-4`}>Privacy Policy for PetBey</h1>
 
       <p className="text-sm text-gray-600">
