@@ -8,6 +8,7 @@ import { ThemeProvider } from './context/Theme';
 import React from 'react';
 import PrivacyPolicy from './pages/Privacy';
 import TermsAndConditions from './pages/Terms';
+import Delete from './pages/Delete';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsAndConditions />} />
+          <Route path="/delete" element={<Delete/>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
