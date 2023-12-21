@@ -9,6 +9,7 @@ import React from 'react';
 import PrivacyPolicy from './pages/Privacy';
 import TermsAndConditions from './pages/Terms';
 import Delete from './pages/Delete';
+import Hero7 from './components/Hero7';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <>
                 <Navbar />
                 <Home />
+                <Hero7/>
                 <Footer />
               </>
             }
@@ -31,6 +33,7 @@ function App() {
               <>
                 <Navbar />
                 <Contact />
+                <Hero7/>
                 <Footer />
               </>
             }
