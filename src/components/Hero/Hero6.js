@@ -7,16 +7,16 @@ import icon12 from '../../assets/landing/icon/icon12.png'
 import { keyboard } from '@testing-library/user-event/dist/keyboard'
 
 const cardDetails = [{
-  title: 'Esther Howard',
-  description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis ac, egestas the futer never sit amet urna. Aenean vitae dapibus ligula, quis porttitor erat.”',
+  title: 'Sarah M',
+  description: '"Petbey made finding our new hairy friend a breeze! The platform is user-friendly, and we connected with a seller who genuinely cared approximately the well-being of their pets!"',
   icon: profile1
 }, {
-  title: 'Albert Flores',
-  description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis ac, egestas the futer never sit amet urna. Aenean vitae dapibus ligula, quis porttitor erat.”',
+  title: 'Jason R',
+  description: '"As a primary-time pet seller, Petbey\'s list process grow to be honest. I appreciated the secure transaction feature and the capability to communicate directly with potential buyers. Overall, a positive experience for every sellers and buyers."',
   icon: profile2
 }, {
   title: 'Ronald Richards',
-  description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis ac, egestas the futer never sit amet urna. Aenean vitae dapibus ligula, quis porttitor erat.”',
+  description: '"Petbey made finding our new hairy friend a breeze! The platform is user-friendly, and we connected with a seller who genuinely cared approximately the well-being of their pets!"',
   icon: profile3
 }]
 
@@ -36,10 +36,10 @@ const card = (title, description,icon,key) => {
 
 const Hero6 = () => {
   return (
-  <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36'>
+  <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36' id='testimonial'>
     <div className='mx-auto flex flex-col md:max-w-xl text-center gap-3 px-2'>
-      <p className={`${styles.heroHeadText}`}>Our Happy Customers</p>
-      <p className={`${styles.heroSubText}`}>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Arcu cursus euismod quis viverra nibh cras.</p>
+      <p className={`${styles.heroHeadText}`}>Happy Customers, Happy Tails!</p>
+      <p className={`${styles.heroSubText}`}>At Petbey, the satisfaction of our customers is our greatest reward. Hear what some of our satisfied pet lovers have to mention:</p>
     </div>  
     <div className='flex justify-center w-full py-1'>
       <div className='flex flex-row gap-8 overflow-x-auto pr-4'>

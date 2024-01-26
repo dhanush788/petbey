@@ -81,7 +81,7 @@ function Delete() {
               className="h-10 w-10 md:h-14 md:w-14"
             />
             <p className="font-bold text-base md:text-2xl text-red">
-              Call Us: <span className="text-black">+001 6547 6589</span>
+              Call Us: <span className="text-black">+91 91423 33733</span>
             </p>
           </div>
           <div className="flex flex-row gap-3 items-center">
@@ -91,7 +91,7 @@ function Delete() {
               className="h-10 w-10 md:h-14 md:w-14"
             />
             <p className="font-bold text-base md:text-2xl text-red">
-              Mail Us: <span className="text-black">Petbey@gmail.com</span>
+              Mail Us: <span className="text-black">info@petbey.in</span>
             </p>
           </div>
         </div>

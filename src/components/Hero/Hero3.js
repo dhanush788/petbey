@@ -5,35 +5,35 @@ import { MdArrowForwardIos } from 'react-icons/md'
 
 const cardDetails = [{
   title: 'Birds',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'From colourful parrots to melodious canaries, our Birds category is a symphony of avian wonders.',
   icon: bird
 }, {
   title: 'Dog',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'Find the perfect canine companion to join you on life\'s adventures.',
   icon: dog
 }, {
   title: 'Cat',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'Our Cats category offers a selection of graceful kitties ready to characteristic a hint of warmth and appeal to your home.',
   icon: cat
 }, {
   title: 'Fish',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'Transform your space into an underwater oasis with our Fish category.',
   icon: fish
 }, {
   title: 'Reptile',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'For the reptile enthusiasts, our Reptiles category introduces you to a international of charming creatures. ',
   icon: reptile
 }, {
   title: 'Small Animal',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'In our Small Animals category, find out petite companions with personalities that defy their size.',
   icon: small_animal
 }, {
   title: 'Farm Animal',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'From friendly goats to fluffy sheep, deliver the pleasure of the countryside on your doorstep with our lovable farm animals.',
   icon: farm_animal
 }, {
   title: 'Birds',
-  description: 'Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor  commodo venenatis .',
+  description: 'From colourful parrots to melodious canaries, our Birds category is a symphony of avian wonders.',
   icon: bird1
 }]
 
@@ -54,8 +54,8 @@ const Hero3 = () => {
     <div className='py-16 px-6 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
         <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-6'>
-          <p className={`${styles.heroHeadText}`}>Pet Categories</p>
-          <p className={`${styles.heroSubText}`}>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Arcu cursus euismod quis viverra nibh cras.</p>
+          <p className={`${styles.heroHeadText}`}>Categories</p>
+          <p className={`${styles.heroSubText}`}>Discover a variety of pet possibilities at Petbey! :</p>
         </div>
         <div>
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-8'>
@@ -64,7 +64,7 @@ const Hero3 = () => {
         </div>
         <div className='flex flex-col md:max-w-xl text-center'>
           <div className='px-8 py-3 bg-red rounded-full text-white font-semibold text-xs md:text-lg flex flex-row gap-1  hover:translate-x-3'>
-            <a href='./'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
+            <a href='https://play.google.com/store/apps/details?id=com.petbey.petbey_flutter'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
           </div>
         </div>
       </div>

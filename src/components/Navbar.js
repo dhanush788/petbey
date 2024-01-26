@@ -30,13 +30,13 @@ export const Navbar = () => {
                 </div>
                 <div className={`hidden ${theme ? 'text-white' : 'text-black'} font-normal text-lg md:flex gap-16`}>
                     <a href="/" className="nav-link">Home</a>
-                    <a href="/features" className="nav-link">Features</a>
-                    <a href="/testimonial" className="nav-link">Testimonial</a>
+                    <a href="#features" className="nav-link">Features</a>
+                    <a href="#testimonial" className="nav-link">Testimonial</a>
                     <a href="/contact" className="nav-link">Contact</a>
                 </div>
                 <div className="text-white hidden font-semibold text-lg md:flex gap-16">
                     <div className={`px-8 py-2  rounded-full ${theme ? "bg-white bg-opacity-10" : "bg-red"}`}>
-                        <a href='/download'>Download</a>
+                        <a href='https://play.google.com/store/apps/details?id=com.petbey.petbey_flutter'>Download</a>
                     </div>
                 </div>
                 <div className="md:hidden flex items-center">
@@ -59,8 +59,8 @@ export const Navbar = () => {
                 <div className={`fixed top-16 left-0 w-full h-full ${theme ? 'bg-red text-white': 'bg-white'} z-50 transform ${toggleMenu ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
                 <div className="md:hidden font-normal text-lg flex flex-col mx-5 gap-4 py-4">
                     <a href="/" className="nav-link">Home</a>
-                    <a href="/feature" className="nav-link">Features</a>
-                    <a href="/testimonial" className="nav-link">Testimonials</a>
+                    <a href="#feature" className="nav-link">Features</a>
+                    <a href="#testimonial" className="nav-link">Testimonials</a>
                     <a href="/contact" className="nav-link">Contact Us</a>
                 </div>
             </div>

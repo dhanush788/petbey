@@ -4,28 +4,28 @@ import { icon4, icon5, icon6, icon7, icon8, icon9 } from '../../assets/landing/i
 import phone1 from '../../assets/landing/phone1.png'
 
 const cardDetails = [{
-  title: 'Download the App',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'Explore Pet Categories',
+  description: 'Navigate effortlessly through various pet categories, discovering pets seeking their forever homes.',
   icon: icon4,
 }, {
-  title: 'Global Perspective',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'User-Friendly Interface',
+  description: 'Glide through an intuitive app design, finding the perfect pet based on your preferences.',
   icon: icon5,
 }, {
-  title: 'Dedicated Teams',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'Seamless Listing Process',
+  description: 'Create detailed pet listings effortlessly, showcasing their personalities for potential adopters',
   icon: icon6,
 }, {
-  title: 'Collaborative ',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'Connect with Sellers/Buyers',
+  description: 'Engage seamlessly with our vibrant network through WhatsApp messaging for easy communication',
   icon: icon7,
 }, {
-  title: 'Communication',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'Community',
+  description: 'Join an amazing pet community network, connecting with enthusiasts to share the joy of companionship.',
   icon: icon8,
 }, {
-  title: 'Ease of Setup',
-  description: 'Businesses need qualified business consulting and professional advice to win over the world.',
+  title: 'Resources',
+  description: 'Access educational materials, suggest pet care tips, and connect with fellow pet lovers on Petbey.',
   icon: icon9,
 }]
 

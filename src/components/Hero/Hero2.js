@@ -10,7 +10,7 @@ const Hero2 = () => {
             <div className='flex md:flex-1 h-full flex-col justify-center items-center my-auto'>
                 <div className=' flex flex-col gap-2 md:gap-4 text-center md:text-left'>
                     <p className={`${styles.heroHeadText}`}>We treat your pet as a family member</p>
-                    <p className={`${styles.heroSubText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.</p>
+                    <p className={`${styles.heroSubText}`}>At Petbey, we understand that your furry friend is not only a pet; they're a cherished member of your family. That's why we're committed in treating every pet with the love, care, and respect they deserve. From the moment you enter the Petbey family, assure that your pet will be embraced with open palms and treated as more than best a companion – they're circle of families.</p>
                 </div>
             </div>
             <div className='flex md:flex-1 h-full justify-center my-auto'>

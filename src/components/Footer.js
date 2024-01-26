@@ -10,17 +10,17 @@ const Footer = () => {
                         <div className='flex flex-row'>
                             <img src='./logo1.png' alt='logo' className='h-12'></img>
                         </div>
-                        <p className={`${styles.heroSubText}`}>Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.</p>
+                        <p className={`${styles.heroSubText}`}>We're more than a marketplace - we're a network of pet lovers dedicated to create a positive and enriching environment for pets and their owners.</p>
 
                     </div>
                 </div>
                 <div className='flex flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className={`${styles.heroSubHeadText}`}>Social Media</p>
-                        <p className={`${styles.heroSubText}`}>Instagram</p>
-                        <p className={`${styles.heroSubText}`}>Facebook</p>
-                        <p className={`${styles.heroSubText}`}>LinkedIn</p>
-                        <p className={`${styles.heroSubText}`}>WhatsApp</p>
+                        <a href='https://www.instagram.com/petbeyindia?igsh=MXJqcWs2MTVnaml4OQ==' className={`${styles.heroSubText}`}>Instagram</a>
+                        <a href='https://www.facebook.com/profile.php?id=100093138654971&mibextid=ZbWKwL' className={`${styles.heroSubText}`}>Facebook</a>
+                        <a href='https://www.linkedin.com/company/petbey-india-pvt-ltd/' className={`${styles.heroSubText}`}>LinkedIn</a>
+                        <a href='https://wa.link/ybx8kx' className={`${styles.heroSubText}`}>WhatsApp</a>
                     </div>
                 </div>
                 <div className='flex flex-1'>
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-red w-full flex justify-center py-2 md:py-4'>
-                <p className={`${styles.heroSubText2}`}>© 2023 Petbey. All rights reserved.</p>
+                <p className={`${styles.heroSubText2}`}>© 2023 Petbey. All rights reserved.<a href='procube.cx' className='text-gray-200'> Powered By Procube.Cx.</a></p>
             </div>
         </div>
     )

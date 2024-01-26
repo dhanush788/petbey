@@ -14,11 +14,11 @@ const Hero5 = () => {
             </div>
             <div className='flex md:flex-1 h-full flex-col my-auto items-center md:items-start gap-4'>
                 <div className='md:max-w-lg flex flex-col gap-2 md:gap-6 text-center md:text-left'>
-                    <p className={`${styles.heroHeadText}`}>Making pet parenting easy for everyone</p>
-                    <p className={`${styles.heroSubText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.</p>
+                    <p className={`${styles.heroHeadText}`}>Petbey: Simplifying Pet Parenthood</p>
+                    <p className={`${styles.heroSubText}`}>Discover the ease of pet parenting with Petbey. Our platform is designed to make the journey of annoying to your hairy friends accessible and easy. From locating the perfect accomplice to connecting with resources and like-minded pet parents, Petbey is dedicated to developing pet ownership a cushty and hassle-free experience for everyone.</p>
                 </div>
                 <div className='px-6 py-2 bg-red rounded-full text-white font-semibold text-xs md:text-lg flex flex-row gap-1   '>
-                <a href='./'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
+                <a href='https://play.google.com/store/apps/details?id=com.petbey.petbey_flutter'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
                 </div>
             </div>
             <img src={Vector4} alt='vector' className='absolute h-10 md:h-20 bottom-4 -right-2 md:bottom-10 md:right-10'/>
