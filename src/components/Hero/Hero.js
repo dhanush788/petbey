@@ -6,7 +6,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 const Hero = () => {
     return (
         <div className='flex flex-col md:flex-row w-full h-screen bg-red px-6 md:px-36 max-h-[900px]'>
-            <div className='flex md:w-1/2 h-full flex-col justify-center sm:justify-end md:justify-center'>
+            <div className='flex  md:w-1/2 h-full flex-col justify-center sm:justify-end md:justify-center'>
                 <div className='w-full text-white text-center md:text-left'>
                     <p className='font-bold text-3xl md:text-6xl'>We are the best friends of your little pets!</p>
                     <p className='opacity-80 text-sm md:text-base font-normal py-4'>Welcome to Petbey, the leading online marketplace for all of your pet needs! Our task is to connect passionate pet enthusiasts, making the process of purchasing and selling pets online a breeze.</p>
