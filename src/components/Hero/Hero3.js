@@ -64,7 +64,7 @@ const Hero3 = () => {
         </div>
         <div className='flex flex-col md:max-w-xl text-center'>
           <div className='px-8 py-3 bg-red rounded-full text-white font-semibold text-xs md:text-lg flex flex-row gap-1  hover:translate-x-3'>
-            <a href='https://play.google.com/store/apps/details?id=com.petbey.petbey_flutter'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
+            <a href='https://play.google.com/store/apps/details?id=com.petbey.petbey_flutter' target='_blank' rel='noopener noreferrer'>Explore</a> <MdArrowForwardIos className='my-auto font-bold' />
           </div>
         </div>
       </div>

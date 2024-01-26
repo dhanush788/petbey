@@ -39,8 +39,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-red w-full flex justify-center py-2 md:py-4'>
-                <p className={`${styles.heroSubText2}`}>© 2023 Petbey. All rights reserved.<a href='procube.cx' className='text-gray-200'> Powered By Procube.Cx.</a></p>
-            </div>
+                <p className={`${styles.heroSubText2}`}>
+                    © 2023 Petbey. All rights reserved.
+                    <a href="http://www.procube.cx" target="_blank" rel="noopener noreferrer" className='text-gray-200'>
+                        Powered By Procube.Cx.
+                    </a>
+                </p>            </div>
         </div>
     )
 }
