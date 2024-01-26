@@ -32,7 +32,7 @@ const card = (title, description,icon,key) => {
 const Hero1 = () => {
   return (
     <div className='py-28 px-6 md:px-36'>
-      <div className='flex flex-col w-full h-full items-center gap-12 md:gap-24'>
+      <div className='flex flex-col w-full h-full items-center gap-12 md:gap-24' id='features'>
         <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-4'>
           <p className={`${styles.heroHeadText}`}>Why petbey?</p>
           <p className={`${styles.heroSubText}`}>Here's why we are the best for your pets:</p>
