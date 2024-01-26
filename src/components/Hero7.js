@@ -15,7 +15,7 @@ const Hero7 = () => {
           <div className='flex flex-row gap-4'>
             <div className='px-6 py-2 bg-white bg-opacity-10 rounded-full flex flex-row gap-2 items-center'>
               <FaApple className='text-white  text-3xl' />
-              <a href='/contact' className={`${styles.heroSubText2}`}>App Store</a>
+              <a href='./' className={`${styles.heroSubText2}`}>App Store</a>
             </div>
             <div className='px-6 py-2 bg-white bg-opacity-10 rounded-full flex flex-row gap-2 items-center'>
               <FaGooglePlay className='text-white  text-2xl' />
