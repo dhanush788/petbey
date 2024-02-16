@@ -51,7 +51,10 @@ const PrivacyPolicy = () => {
       <div className={sectionStyle}>
         <h2 className={`${headingStyle} text-lg`}>Managing Access to Your Google Account:</h2>
         <p className={sectionContentStyle}>
-          You can manage access to your Google Account and review and adjust what information apps can access by visiting the Google Account settings. For more information, you can refer to the Google article on how Google helps users share their data safely.
+          You can manage access to your Google Account and review and adjust what information apps can access by visiting the Google Account settings. For more information, you can refer to the Google article;
+          <a href='https://support.google.com/accounts/answer/13867826?hl=en#:~:text=Your%20Google%20Account%20data%20is,isn%27t%20shared%20with%20Google.' style={{ color: 'blue', textDecoration: 'underline' }}>
+            Click here
+          </a>
         </p>
       </div>
 
