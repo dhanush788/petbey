@@ -4,8 +4,8 @@ import { styles } from '../style'
 const Footer = () => {
     return (
         <div className='bg-[#F3F5F6] flex items-center flex-col'>
-            <div className='w-full flex flex-col gap-y-8 md:flex-row py-6 md:py-16 px-6 max-w-7xl'>
-                <div className='flex flex-1'>
+            <div className='w-full flex flex-wrap gap-y-8 gap-x-8 md:gap-x-0 md:flex-row py-6 md:py-16 px-6 max-w-7xl'>
+                <div className='flex md:flex-1'>
                     <div className='flex flex-col md:mx-auto text-left gap-y-5'>
                         <div className='flex flex-row'>
                             <img src='./logo1.png' alt='logo' className='h-12'></img>
@@ -14,7 +14,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className='flex flex-1'>
+                <div className='flex md:flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className={`${styles.heroSubHeadText}`}>Social Media</p>
                         <a href='https://www.instagram.com/petbeyindia?igsh=MXJqcWs2MTVnaml4OQ==' className={`${styles.heroSubText}`}>Instagram</a>
@@ -23,15 +23,15 @@ const Footer = () => {
                         <a href='https://wa.link/ybx8kx' className={`${styles.heroSubText}`}>WhatsApp</a>
                     </div>
                 </div>
-                <div className='flex flex-1'>
+                <div className='flex md:flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className={`${styles.heroSubHeadText}`}>Quick Link</p>
                         <a href='/terms' className={`${styles.heroSubText}`}>Terms and Condiion</a>
-                        <a href='/privacy' className={`${styles.heroSubText}`}>Privacy Policy</a>
+                        <a href='/pri' className={`${styles.heroSubText}`}>Privacy Policy</a>
 
                     </div>
                 </div>
-                <div className='flex flex-1'>
+                <div className='flex md:flex-1'>
                     <ul className='flex flex-col md:mx-auto gap-y-3 w-full'>
                         <p className={`${styles.heroSubHeadText}`}>Get in Touch</p>
                         <p className={`${styles.heroSubText}`}>Question or feedback? We’d love to hear from you.</p>
