@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className='flex md:flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className={`${styles.heroSubHeadText}`}>Quick Link</p>
-                        <a href='/terms' className={`${styles.heroSubText}`}>Terms and Condiion</a>
+                        <a href='/terms' className={`${styles.heroSubText}`}>Terms and Condition</a>
                         <a href='/pri' className={`${styles.heroSubText}`}>Privacy Policy</a>
 
                     </div>
