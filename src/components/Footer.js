@@ -24,6 +24,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex flex-1'>
+                    <div className='flex flex-col md:mx-auto gap-y-3 '>
+                        <p className={`${styles.heroSubHeadText}`}>Quick Link</p>
+                        <a href='/terms' className={`${styles.heroSubText}`}>Terms and Condiion</a>
+                        <a href='/privacy' className={`${styles.heroSubText}`}>Privacy Policy</a>
+
+                    </div>
+                </div>
+                <div className='flex flex-1'>
                     <ul className='flex flex-col md:mx-auto gap-y-3 w-full'>
                         <p className={`${styles.heroSubHeadText}`}>Get in Touch</p>
                         <p className={`${styles.heroSubText}`}>Question or feedback? We’d love to hear from you.</p>
