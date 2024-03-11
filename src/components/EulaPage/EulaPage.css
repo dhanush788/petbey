@@ -1,0 +1,25 @@
+/* EULAPage.css */
+.eula-page {
+    font-family: Arial, sans-serif;
+
+    padding-right: 20px;
+  }
+  
+  .eula-header h1 {
+    font-size: 24px;
+  }
+  
+  .eula-header p {
+    font-size: 18px;
+  }
+  
+  .eula-content h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .eula-content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

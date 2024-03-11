@@ -1,4 +1,5 @@
 import React from "react";
+import EULAPage from "../components/EulaPage/EulaPage";
 
 const TermsAndConditions = () => {
   const sectionStyle = "my-8"; // Adjust margin top and bottom between sections as needed
@@ -142,6 +143,8 @@ const TermsAndConditions = () => {
           .
         </p>
       </div>
+
+      <EULAPage />
     </div>
   );
 };
